@@ -17,7 +17,7 @@ function App () {
       function handleAddProject () {
         //projects.push(`Novo Projeto, ${Date.now()}`)
 
-        setProjects([...projects, `Novo Projeto, ${Date.now()}`]);
+        setProjects([...projects, `Novo projeto, ${Date.now()}`]);
 
       }
 
